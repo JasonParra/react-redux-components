@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  flex-direction: row !important;
+  align-items: baseline !important;
+  justify-content: flex-start !important;
+}
+
+.icon1{
+  position: relative !important;
+  right: 60px;
+  margin-right: -25px;
+}
+
+.icon2{
+  position: relative !important;
+  right: 25px;
+  margin-right: -25px;
+}
+
+.input{
+  width: 100% !important;
+}

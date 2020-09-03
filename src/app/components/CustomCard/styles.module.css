@@ -1,0 +1,31 @@
+.header{
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border: 0.1px solid #E6E6E6;
+  padding: 10px 10px !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+	display: flex;
+	flex-direction: column !important;
+	 background-color: #F5F5F6;
+	
+}
+
+.content{
+ border-left: 0.1px solid #E6E6E6;
+	border-right: 0.1px solid #E6E6E6; 
+	padding: 10px 10px !important;
+
+}
+
+.action{
+  border: 0.1px solid #E6E6E6;
+	padding: 10px 10px !important;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+

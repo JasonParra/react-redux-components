@@ -1,0 +1,109 @@
+.hours {
+    position: relative; 
+    height: 30px; 
+    width: 40px;
+    perspective: 200px;
+    margin: 5px 5px; 
+    backface-visibility: hidden;
+    transform: translateZ(0); transform: translate3d(0,0,0);
+}
+
+.minutes {
+    position: relative; 
+    height: 30px; 
+    width: 40px;
+    perspective: 200px;
+    margin: 5px 5px; 
+    backface-visibility: hidden;
+    transform: translateZ(0); transform: translate3d(0,0,0);
+}
+
+.seconds{
+    position: relative; 
+    height: 30px; 
+    width: 40px;
+    perspective: 200px;
+    margin: 5px 5px; 
+    backface-visibility: hidden;
+    transform: translateZ(0); transform: translate3d(0,0,0);
+}
+
+.count {
+    background: #1a1a1a; 
+    color: #f8f8f8; 
+    display: block;
+    font-size: 1.9em; 
+    line-height: 2.8em; 
+    overflow: hidden;
+    position: absolute; 
+    text-align: center;
+    top: 0; 
+    width: 100%;
+}
+.top {
+    height: 50%; 
+    line-height:30px; 
+    transform-origin: 50% 100%; 
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+
+}
+.bottom {
+    line-height: 0; 
+    height: 50%; 
+    top: 50%; 
+    transform-origin: 50% 0;
+    border-bottom-left-radius: 3px !important;
+    border-bottom-right-radius: 3px !important; 
+}
+
+@keyframes flipTop {
+  from {
+      transform: rotateX(0deg);
+  }
+  to {
+      transform: rotateX(-90deg);
+  }
+}
+@keyframes flipBottom {
+    from {
+        transform: rotateX(90deg);
+    }
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+.flipTop {
+    animation-name: flipTop;
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+}
+.flipBottom {
+    animation-name: flipBottom;
+    animation-duration: 0.25s;
+     animation-delay: 0.25s;
+    animation-fill-mode: both;
+}
+.info{
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+.doubleDots{
+    font-size: 22pt !important;
+    margin-bottom: 5px !important;
+    color: black !important;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

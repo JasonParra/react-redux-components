@@ -1,0 +1,9 @@
+.container{
+  display: flex;
+}
+
+.text{
+  color: blue;
+  text-decoration: underline;
+  font-size: 12px;
+}

@@ -1,0 +1,110 @@
+.containerTab{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+padding: 0px 10px;
+box-shadow: 0 1px 0px rgba(0,0,0,.15) !important;
+}
+
+.containerView{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px 10px;
+  /* height: 84vh !important; */
+}
+
+.tabBlackActive{
+  display: flex;
+  border-bottom:  2px solid black !important;
+  border-bottom-left-radius: 2px solid black !important;
+  border-bottom-right-radius: 2px solid black !important;
+  margin-right: 26px !important;
+  align-items: center !important;
+  height: 35px !important;
+}
+
+.tabBlackDisable{
+  display: flex;
+  margin-right: 26px !important;
+  align-items: center !important;
+  padding-bottom: 2px !important;
+  height: 35px !important;
+}
+
+.tabWhiteActive{
+  display: flex;
+  border-bottom:  2px solid white !important;
+  border-bottom-left-radius: 2px solid white !important;
+  border-bottom-right-radius: 2px solid white !important;
+  margin-right: 26px !important;
+  align-items: center !important;
+  height: 35px !important;
+}
+
+.tabWhiteDisable{
+  display: flex;
+  padding-bottom: 2px !important;
+  margin-right: 26px !important;
+  align-items: center !important;
+  height: 35px !important;
+}
+
+.tabTitleWhiteActive{
+  display: flex !important;
+  justify-content: center !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  color: white !important;
+}
+.tabTitleWhiteDisable{
+  display: flex !important;
+  justify-content: center !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  color: rgb(240, 240, 240) !important;
+}
+
+.tabTitleBlackActive{
+  display: flex !important;
+  justify-content: center !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+
+}
+
+.tabTitleBlackDisable{
+  display: flex !important;
+  justify-content: center !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  color: rgb(46, 46, 46);
+
+}
+
+.activeIcon{
+  color: white;
+  margin-right: 8px !important;
+}
+
+.disableIcon{
+  color: rgb(231, 231, 231) !important;
+  margin-right: 8px !important;
+}
+
+
+
+.tabContent{
+  display:flex;
+  flex-direction: column;
+}
+
+.activeView{
+  display: block;
+  width: 100%;
+}
+
+.disableView{
+  display: none;
+}

@@ -1,0 +1,16 @@
+.actionsButtons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.marginTop{
+  margin-top: 10px;
+}
+
+.inputError{
+  margin-top: 10px;
+}
+
+.companyContainer{
+margin-top: 15px;
+}

@@ -1,0 +1,16 @@
+
+.container{
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap  !important;
+}
+
+.iconSeacrhInput{
+  position: relative;
+  left: 182px;
+  z-index: 1 !important; 
+}
+
+.searchInput{
+  width: 190px !important;
+}

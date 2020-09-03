@@ -1,0 +1,23 @@
+.container{
+display: flex;
+justify-content: flex-start !important;
+align-items: center !important;
+}
+
+.input:focus{
+  outline: none;
+}
+
+.action{
+  display: flex;
+  flex-direction: row !important;
+  justify-content: flex-start !important;
+}
+
+.actionButton:focus{
+  outline: none;
+}
+
+.actionButton:hover{
+  background-color: rgb(226, 226, 226) !important; 
+}

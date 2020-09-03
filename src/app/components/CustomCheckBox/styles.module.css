@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.label{
+  margin-bottom: 2px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerCheckBox input:checked ~ .checkmark {
+  background-color:black !important;
+}
+

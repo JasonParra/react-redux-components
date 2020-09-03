@@ -1,0 +1,7 @@
+textArea{
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.textArea:focus{
+  outline: none;
+}
