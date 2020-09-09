@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import Styles from "./components.module.css"
-import PasswordInput from "../../components/password-input/password-input"
+// import PasswordInput from "../../components/password-input/password-input"
 import CustomButtom from '../../components/custom-button/custom-buttom';
 import CustomInput from '../../components/custom-input/custom-input';
 import { faUsers, faTimes, faList } from '@fortawesome/free-solid-svg-icons';
 import CustomHeader from '../../components/custom-header/custom-header';
-import CircularButton from '../../components/circular-button/circular-button';
+// import CircularButton from '../../components/circular-button/circular-button';
 import CustomLabel from '../../components/custom-label/custom-label'
 import CustomDropdown from '../../components/custom-dropdown/custom-dropdown'
 
