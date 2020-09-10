@@ -1,24 +1,25 @@
 import React from "react";
 import { render } from "react-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+
+//Router
+import { BrowserRouter } from "react-router-dom";
+
+//Redux
 import { Provider } from "react-redux";
-import store from './app/redux/store'
+import store from "./app/redux/store";
 
-// Initialize the desired locales.
-import "./index.css";
-
+//Components
 import App from "./App";
 
+//Styles
+// import "react-table-6/react-table.css";
+import "./index.css";
+
 render(
-  <Provider store={store}>
-    <Router>
-      <App />
-    </Router>
-  </Provider >,
-  document.getElementById("root")
+	<Provider store={store}>
+		<BrowserRouter>
+			<App />
+		</BrowserRouter>
+	</Provider>,
+	document.getElementById("root")
 );
-
-
-
-
-
